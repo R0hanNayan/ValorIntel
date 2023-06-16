@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-links-logo{
+    margin-right: 2rem;
+}
+.navbar-links-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-links-container p,
+.navbar-menu-container-links p{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    margin: 0 1rem;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none;
+}
