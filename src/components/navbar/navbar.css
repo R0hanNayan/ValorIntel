@@ -80,6 +80,7 @@
     }
     .navbar-menu{
         display: flex;
+        margin-right: auto;
     }
 }
 
@@ -89,6 +90,7 @@
     }
     .navbar-menu{
         display: flex;
+        margin-right: auto;
     }
 }
 
