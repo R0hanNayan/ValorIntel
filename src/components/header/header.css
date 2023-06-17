@@ -97,6 +97,10 @@
     .header-container-content{
         margin:0 auto; 
     }
+    .header-model{
+        height: 500px;
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 600px){
