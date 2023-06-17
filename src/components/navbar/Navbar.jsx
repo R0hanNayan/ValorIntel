@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import logo from '../../assets/logo.svg';
 
 function Menu(){
     return(
@@ -21,7 +22,7 @@ function Navbar(){
         <div className="navbar">
             <div className="navbar-links">
                 <div className="navbar-links-logo">
-                    <img src="ads" alt="Logo"/>
+                    <img src={logo} alt="Logo"/>
                 </div>
                 <div className="navbar-links-container">
                     <Menu />
