@@ -21,7 +21,7 @@ function Header() {
                 <Canvas className="canvas">
                     <OrbitControls enableZoom={false} />
                     <ambientLight intensity={0.5} />
-                    <directionalLight position={[-2, 5, 2]} intensity={1} castShadow/>
+                    <directionalLight position={[-2, 5, 2]} intensity={1}/>
                     <Suspense fallback={null}>
                         <Raze rotation={[0.1, -0.6, 0]} position={[0, -1.2, 0]} />
                     </Suspense>

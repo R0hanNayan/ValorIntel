@@ -75,7 +75,6 @@
 }
 
 .header-model{
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,14 +91,11 @@
 @media screen and (max-width: 1000px){
     .header{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .header-container-content{
         margin:0 auto; 
-    }
-    .header-model{
-        height: 400px;
-        width: 400px;
-        margin: 0 auto;
     }
 }
 
@@ -121,8 +117,8 @@
         max-width: 100%;
     }
     .header-model{
-        height: 200px;
-        width: 200px;
+        height: 220px;
+        width: 221px;
         margin: 0 auto;
     }
     .header-btn{
@@ -152,10 +148,9 @@
         font-size: 10px;
         max-width: 100%;
     }
-
     .header-model{
-        height: 200px;
-        width: 200px;
+        height: 190px;
+        width: 190px;
         margin: 0 auto;
     }
 }
