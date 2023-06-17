@@ -8,7 +8,7 @@ function Menu(){
         <>
             <p><a style={{textDecoration: 'none', color: "inherit"}} href="#home">Home</a></p>
             <p><a style={{textDecoration: 'none', color: "inherit"}} href="#agents">Agents</a></p>
-            <p><a style={{textDecoration: 'none', color: "inherit"}} href="#guns">Guns</a></p>
+            <p><a style={{textDecoration: 'none', color: "inherit"}} href="#weapons">Weapons</a></p>
             <p><a style={{textDecoration: 'none', color: "inherit"}} href="#news">News</a></p>
             <p><a style={{textDecoration: 'none', color: "inherit"}} href="#contact">Contact</a></p>
         </>

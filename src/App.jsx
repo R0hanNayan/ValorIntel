@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {Navbar,Header,Agents,Guns,News,Footer} from './components'
+import {Navbar,Header,Agents,Weapons,News,Footer} from './components'
 
 function App(){
     return(
@@ -8,7 +8,7 @@ function App(){
             <Navbar/>
             <Header/>
             <Agents/>
-            <Guns/>
+            <Weapons/>
             <News/>
             <Footer/>
         </div>
