@@ -11,7 +11,7 @@ function Header() {
                 <h1>Valorant</h1>
                 <h4>A 5v5 character-based tactical shooter</h4>
                 <h2>ValorIntel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Welcome to ValorIntel, your ultimate resource for everything related to agents, guns, and maps in the exhilarating world of Valorant. Stay up to date with the latest patch notes, balance changes, and meta shifts. </p>
                 <div className="header-btn">
                     <a style={{ textDecoration: "none" }} href="#agents">Get Started</a>
                 </div>
