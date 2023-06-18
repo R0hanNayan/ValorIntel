@@ -5,10 +5,10 @@
     transform: translate(-50%, -50%);
 }
 .card-content {
-    padding: 10px 15px;
+    padding: 30px 35px;
     background: var(--color-bg);
     width: 500px;
-    height: 500px;
+    height: 700px;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -84,28 +84,28 @@
         height: 600px;
     }
     .card-content h1{
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 18px;
+        line-height: 20px;
     }
     .card-content h4{
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 12px;
+        line-height: 15px;
     }
     .card-ability{
         flex-direction: column;
         max-width: 300px;
     }
     .card-ability img{
-        height: 25px;
-        width: 25px;
-        margin-bottom: 10px;
+        height: 20px;
+        width: 20px;
+        margin-bottom: 5px;
     }
     .card-ability p{
-        font-size: 12px;
+        font-size: 10px;
     }
     .card-closeBtn{
-        max-width: 60px;
-        height: 30px;
+        max-width: 50px;
+        height: 20px;
         margin-top: 10%;
     }
 }
