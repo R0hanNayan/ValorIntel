@@ -4,7 +4,7 @@ import "./agentCard.css";
 function AgentCard(props) {
     return (
         <div className="card">
-            <div className='card-content'>
+            <div className='card-content  scale-up-center'>
                 <h1>{props.name}</h1>
                 <h4>Role: {props.role}</h4>
                 <div className='card-ability'>
