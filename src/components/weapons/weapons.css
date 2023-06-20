@@ -1,0 +1,97 @@
+.weapons{
+    display: flex;
+    flex-direction: column;
+}
+
+.weapons-heading{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.weapons-heading h1{
+    color: white;
+    font-family: var(--font-family);
+    font-size: 70px;
+    font-weight: 1000;
+    line-height: 80px;
+}
+
+.weapons-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.weapons-preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+    width: 350px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px 1px rgb(117, 32, 32);
+    cursor: pointer;
+}
+
+.weapons-preview:hover{
+    box-shadow: -2px -5px 10px 1px rgb(117, 32, 32);
+}
+
+.weapons-preview img{
+    height: 80%;
+    width: 100%;
+}
+.weapons-preview h4{
+    font-size: 25px;
+    color: white;
+    font-family: var(--font-family);
+}
+
+@media screen and (max-width: 1050px) {
+    .weapons-container{
+        grid-gap: 8px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .weapons-preview{
+        margin: 0 auto;
+        height: 220px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .weapons-heading h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .weapons-container{
+        grid-gap: 8px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .weapons-preview{
+        height: 220px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .weapons-heading h1{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .weapons-container{
+        grid-gap: 8px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .weapons-preview{
+        height: 250px;
+        width: 340px;
+    }
+}

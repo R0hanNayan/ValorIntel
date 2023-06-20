@@ -1,5 +1,4 @@
 .agents{
-    margin-top: -100px;
     display: flex;
     flex-direction: column;
 }
@@ -61,6 +60,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .agents-preview{
+        margin: 0 auto;
         height: 300px;
         width: 220px;
     }
